@@ -1,4 +1,4 @@
-#include "SNQueue.h"
+#include "../Header/SNQueue.h"
 
 
 SNQueueP SNQueueCreateNode(int val) {
@@ -74,6 +74,12 @@ void SNQueueEnQueue(SNQueueList ** queue, int val) {
 
 int SNQueueDeQueue(SNQueueList ** queue) {
 	return SNQueueRemoveNode(queue);
+}
+
+bool SNQueueListIsEmpty(SNQueueListP head) {
+	if (head == NULL || head->head == NULL) return true;
+
+	return false;
 }
 
 int SNQueueMainFunction() {

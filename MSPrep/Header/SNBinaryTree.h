@@ -1,4 +1,4 @@
-#include "BasicFunctionality.h"
+#include "../Header/BasicFunctionality.h"
 
 class SNBinaryTree
 {

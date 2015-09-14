@@ -1,4 +1,4 @@
-#include "SNStack.h"
+#include "../Header/SNStack.h"
 
 SNStackP  SNStackCreateNode(int val) {
 	SNStackP  node = new SNStack();
@@ -18,6 +18,11 @@ int SNStackSize(SNStackP  head) {
 		count++;
 	}
 	return count;
+}
+
+bool SNStackIsEmpty(SNStackP head) {
+	if(head == NULL) return true;
+	return false;
 }
 
 void SNStackInsertNode(SNStack**head, int val) {

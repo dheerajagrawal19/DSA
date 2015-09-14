@@ -146,21 +146,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MainSource.cpp" />
-    <ClCompile Include="SNBinaryTree.cpp" />
-    <ClCompile Include="SNBST.cpp" />
-    <ClCompile Include="SNLinkedList.cpp" />
-    <ClCompile Include="SNQueue.cpp" />
-    <ClCompile Include="SNStack.cpp" />
+    <ClInclude Include="Header\BasicFunctionality.h" />
+    <ClInclude Include="Header\MainSource.h" />
+    <ClInclude Include="Header\SNBinaryTree.h" />
+    <ClInclude Include="Header\SNBST.h" />
+    <ClInclude Include="Header\SNDLinkedList.h" />
+    <ClInclude Include="Header\SNLinkedList.h" />
+    <ClInclude Include="Header\SNMixedDataStructure.h" />
+    <ClInclude Include="Header\SNQueue.h" />
+    <ClInclude Include="Header\SNStack.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BasicFunctionality.h" />
-    <ClInclude Include="MainSource.h" />
-    <ClInclude Include="SNBinaryTree.h" />
-    <ClInclude Include="SNBST.h" />
-    <ClInclude Include="SNLinkedList.h" />
-    <ClInclude Include="SNQueue.h" />
-    <ClInclude Include="SNStack.h" />
+    <ClCompile Include="Source\MainSource.cpp" />
+    <ClCompile Include="Source\SNBinaryTree.cpp" />
+    <ClCompile Include="Source\SNBST.cpp" />
+    <ClCompile Include="Source\SNDLinkedList.cpp" />
+    <ClCompile Include="Source\SNLinkedList.cpp" />
+    <ClCompile Include="Source\SNMixedDataStructure.cpp" />
+    <ClCompile Include="Source\SNQueue.cpp" />
+    <ClCompile Include="Source\SNStack.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

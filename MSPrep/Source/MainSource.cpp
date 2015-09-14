@@ -1,4 +1,4 @@
-#include "MainSource.h"
+#include "../Header/MainSource.h"
 
 void main() {
 	//SNLLMainFunction(); 	//SNStackMainFunction(); 	//SNQueueMainFunction(); 	//SNBSTMainFunction();

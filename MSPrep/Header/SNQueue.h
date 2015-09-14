@@ -1,4 +1,4 @@
-#include "BasicFunctionality.h"
+#include "../Header/BasicFunctionality.h"
 
 typedef struct _SNQueue {
 	int val;
@@ -34,5 +34,7 @@ void SNQueueEnQueue(SNQueueList ** queue, int val);
 int SNQueueDeQueue(SNQueueList ** queue);
 
 int SNQueuePop(SNQueueList ** head);
+
+bool SNQueueListIsEmpty(SNQueueListP head);
 
 int SNQueueMainFunction();

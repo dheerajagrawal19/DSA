@@ -1,4 +1,4 @@
-#include "SNLinkedList.h"
+#include "../Header/SNLinkedList.h"
 
 SNLinkedListP  SNLLCreateNode(int val) {
 	SNLinkedListP  node = new SNLinkedList();
